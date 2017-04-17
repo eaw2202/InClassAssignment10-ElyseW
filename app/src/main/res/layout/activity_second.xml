@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.elysewarren.officehours2.SecondActivity">
+
+    <ImageView
+        android:id="@+id/dog_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        tools:src="@drawable/puppy" />
+
+    <TextView
+        android:id="@+id/dog_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/dog_photo"
+        android:textSize="30sp"
+        tools:text="Cute puppy"
+
+        />
+
+    <TextView
+        android:id="@+id/dog_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dog_name"
+        android:layout_toRightOf="@+id/dog_photo"
+        tools:text="1 years old" />
+
+</LinearLayout>
